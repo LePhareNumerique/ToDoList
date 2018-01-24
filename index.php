@@ -22,7 +22,7 @@
             <?php
                 require 'inc/connect.php';
                 
-                $reponse = $bdd->query('SELECT id, DATE_FORMAT(date_ajout, \'%d/%m/%Y - %Hh%imin \') AS date_ajout_fr, item, commentaire FROM taches ORDER BY date_ajout_fr DESC');
+                $reponse = $bdd->query('SELECT id, DATE_FORMAT(date_ajout, \'%d/%m/%Y %Hh%imin \') AS date_ajout_fr, item, commentaire FROM taches ORDER BY date_ajout_fr DESC');
 
                 while ($donnees = $reponse->fetch()){
             ?>

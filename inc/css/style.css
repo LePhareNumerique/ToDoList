@@ -15,7 +15,7 @@ body{
 
 table{
 	display: table;
-	margin: 150px auto;
+	margin: 120px auto;
 	border-collapse: collapse;
 	text-align: center;
 	max-width: 90%;
@@ -46,6 +46,15 @@ a{
 td{
 	background-color: lightblue;
 	color: black;
+}
+
+#date{
+	width: 10%;
+}
+
+#com{
+	font-size: 13px;
+	font-style: italic;
 }
 
 .modifs{
