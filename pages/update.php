@@ -24,7 +24,7 @@
 
 				<div class="entreeform">
 					<div class="formleft">
-						<label for="item">Tâche :</label>
+						<label for="item">Tâche</label>
 					</div>
 					<div class="formright">
 						<input type="text" name="item" value="<?php echo $resu['item'] ?>">
@@ -33,7 +33,7 @@
 
 				<div class="entreeform">
 					<div class="formleft">
-						<label for="com">Commentaire :</label>
+						<label for="com">Commentaire</label>
 					</div>
 					<div class="formright">
 						<!-- <input type="text" name="com" value="<?php echo $resu['commentaire'] ?>"> -->
@@ -45,6 +45,6 @@
 			</form>
 		</div>
 		<br>
-		<a href="../index.php">Retour à la liste des courses</a>
+		<a href="../index.php">Retour à la liste des tâches</a>
 	</body>
 </html>

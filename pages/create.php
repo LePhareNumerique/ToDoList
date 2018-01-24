@@ -13,7 +13,7 @@
 			<form action="../process/traitement.php" method="post">
 				<div class="entreeform">
 					<div class="formleft">
-						<label for="item">Tâche :</label>
+						<label for="item">Tâche</label>
 					</div>
 					<div class="formright">
 						<input type="text" name="item" value="" required="required" autofocus>
@@ -22,7 +22,7 @@
 
 				<div class="entreeform">
 					<div class="formleft">
-						<label for="com">Commentaire :</label>
+						<label for="com">Commentaire</label>
 					</div>
 					<div class="formright">
 						<textarea name="com" value=""></textarea>

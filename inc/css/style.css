@@ -50,12 +50,15 @@ td{
 
 .modifs{
 	background-color: white;
-	padding: 0px 15px;
-	
+	width: 10%;
+	height: auto;
+	text-align: center;
 }
 
-.sup{
-	color: red;
+.modifs img{
+	width: 40%;
+	height: auto;
+	margin: 0 2%;
 }
 
 #ajout{
@@ -103,17 +106,18 @@ h1{
 }
 
 .formleft{
-	width: 10%;
+	width: 15%;
 	height: auto;
 	float: left;
 	text-align: left;
 	padding-top: 1%;
 	padding-right: 1%;
-	font-size: 1em;
+	font-size: 0.8em;
+	line-height: 1.6em;
 }
 
 .formright{
-	width: 89%;
+	width: 84%;
 	height: auto;
 	float: left;
 }

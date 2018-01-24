@@ -31,7 +31,7 @@
                 <td id='date'><?php echo $donnees['date_ajout_fr']; ?></td>
                 <td id='item'><?php echo $donnees['item']; ?></td>
                 <td id='com'><?php echo $donnees['commentaire']; ?></td>
-                <td class="modifs"><a id="mod" href="pages/update.php?id=<?php echo $donnees['id']; ?> "> Modifier </a><a class="sup" href="process/delete.php?id=<?php echo $donnees['id']; ?>" onclick="Supp(this.href); return(false);"> Supprimer </a></td>
+                <td class="modifs"><a id="mod" href="pages/update.php?id=<?php echo $donnees['id']; ?> "> <img src="inc/img/modify.png"> </a><a class="sup" href="pages/delete.php?id=<?php echo $donnees['id']; ?>" onclick="Supp(this.href); return(false);"> <img src="inc/img/delete.png"> </a></td>
             </tr>
 
             <?php
